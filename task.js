@@ -4,8 +4,9 @@
  * let fruits = ['apple', 'banana', 'cherry']
  */
 
-let fruits = ['apple', 'banana', 'cherry']
-console.log(fruits);
+// let fruits = ['apple', 'banana', 'cherry']
+// fruits.pop();
+// console.log(fruits," ==> RESULT");
 // Output: ['apple', 'banana']
 
 
@@ -16,7 +17,7 @@ console.log(fruits);
  */
 
 let bulkAlphabet = ['a', 'b', 'c', 'd', 'e']
-console.log(bulkAlphabet);
+// console.log(bulkAlphabet.length);
 // Output: 5
 
 
@@ -27,6 +28,8 @@ console.log(bulkAlphabet);
  * Setelah itu urutkan array tersebut tanpa menggunakan built in function
  */
 let angkaUnik = [21, 19, 10, 89, 3, 20, 33, 34]
+
+// console.log(angkaUnik)
 
 
 /**
@@ -39,7 +42,7 @@ let angkaUnik = [21, 19, 10, 89, 3, 20, 33, 34]
 let arr1 = [1, 2, 3]
 let arr2 = [3, 4, 5]
 let result1
-console.log(result1);
+// console.log(result1);
 // Output : [1, 2, 3, 4, 5, 6]
 
 
@@ -53,7 +56,7 @@ console.log(result1);
  */
 let arr3 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 let angkaGanjil = []
-console.log(angkaGanjil); // [1, 3, 5, 7, 9]
+// console.log(angkaGanjil); // [1, 3, 5, 7, 9]
 
 
 /**
@@ -73,6 +76,8 @@ let angkaKumupulan =[3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5];
 // Output : [9, 6, 5, 4, 3, 2, 1]
 
 
+
+
 /**
  * Menggabungkan Array dengan Spesifik
  * Memiliki dua array, arr1 = [1, 2, 3] dan arr2 = ['a', 'b', 'c']. 
@@ -81,3 +86,19 @@ let angkaKumupulan =[3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5];
 
 let kumpulanAngka = [1, 2, 3]
 let kumpulanHuruf = ["a", "b", "c"]
+
+
+/**
+ * Subarray dengan jumlah terbesar
+ *  
+ * Dari sebuah array angka, temukan subarray (array dalam array) dengan jumlah elemen yang paling besar. 
+ * Misalnya dari array [2, 3, -4, 5, 7, -8, 6, 4], subarray dengan jumlah terbesar adalah [2, 3, -4, 5, 7] dengan total 13.
+ */
+
+
+/**
+ * Urutkan berdasarkan Frekuensi:
+ * Dari sebuah array, urutkan elemennya berdasarkan frekuensi kemunculannya. 
+ * Jika dua elemen memiliki frekuensi yang sama, urutkan berdasarkan angkanya. 
+ * Misalnya dari array [3, 2, 2, 8, 3, 4, 4], hasil yang diharapkan adalah [3, 3, 2, 2, 4, 4, 8]
+ */
